@@ -1,2 +1,2 @@
 def test_new_branch():
-    print("version-3.0")
+    print("version-4.0")
