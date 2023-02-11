@@ -1,2 +1,2 @@
 def test_new_branch():
-    print("新增的分支6661")
+    print("新增的分支6662")
