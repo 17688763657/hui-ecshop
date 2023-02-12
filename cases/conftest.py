@@ -6,7 +6,7 @@ from common.get_excel_data import GetExcelData
 #定义一个fixture,打开浏览器,并最大化
 @pytest.fixture(name="driver")
 def browser():
-    driver=webdriver.Chrome('C:\Python\Python36\chromedriver.exe')
+    driver=webdriver.Chrome('C:\Program Files\Google\Chrome\Application\chromedriver.exe')
     driver.maximize_window()
     yield driver
     driver.quit()
