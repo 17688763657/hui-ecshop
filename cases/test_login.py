@@ -1,8 +1,10 @@
 from pages.login_page import LoginPage
 import allure,pytest,json
 from common.get_excel_data import GetExcelData
+import os
 
-file_path = r"C:\Users\11314\Desktop\web自动化2023-2-1\ecshop\cases\test-data.xls"
+a=os.path.abspath('.')
+file_path=a+r"\cases\test-data.xls"
 sheet_name = "login"
 getexceldata = GetExcelData()
 data_list = getexceldata.get_data(file_path, sheet_name)
